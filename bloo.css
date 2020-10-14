@@ -1,0 +1,37 @@
+h2 {
+    align-self: center;
+    color: cyan;
+}
+
+
+.animation {
+    border: 2px black solid;
+    height: 100px;
+    width: 100px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    animation: animation-1 5s infinite;
+}
+@keyframes animation-1 {
+    0% {left: 0px; top: 0px;}
+    50% {left: 100%; background-color: tomato;}
+    75% {top: 100%; }
+    99% {left: 0px;}
+    100% {top: 0px; }
+}
+.panimation {
+    border: 2px black solid;
+    height: 50px;
+    width: 50px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    animation: panimation-1 5s infinite;
+}
+@keyframes panimation-1 {
+    0% {left: 100px; top: 100px;}
+    30% {left: 100%; background-color: black;}
+    50% {top: 100%; }
+    50% {left: 0px;}
+    100% {top: 0px; }
